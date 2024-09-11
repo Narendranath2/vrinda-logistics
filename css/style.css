@@ -3,7 +3,7 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity .5s ease-out, visibility 0s linear .2s;
     z-index: 99999;
 }
 
@@ -24,14 +24,14 @@
     height: 45px;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 99;
 }
 
 /*** Button Start ***/
 .btn {
     font-weight: bolder;
-    transition: .5s;
+    transition: .2s;
     border: none;
 }
 
@@ -71,7 +71,7 @@
     background: var(--bs-primary) !important;
     color: var(--bs-light) !important;
     font-weight: bolder;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .btn.btn-primary:hover {
@@ -83,7 +83,7 @@
     background: var(--bs-light) !important;
     color: var(--bs-primary) !important;
     font-weight: bolder;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .btn.btn-light:hover {
@@ -146,12 +146,12 @@ li {
     font-size: 16px;
     font-weight: bolder;
     outline: none;
-    transition: .5s;
+    transition: .2s;
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--bs-white) !important;
+    color: white !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -161,7 +161,7 @@ li {
 
 .navbar-light .navbar-brand img {
     max-height: 50px;
-    transition: .5s;
+    transition: .2s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
@@ -186,7 +186,7 @@ li {
         transform-origin: 0% 0%;
         border: 0;
         border-radius: 10px;
-        transition: .5s;
+        transition: .2s;
         opacity: 0;
     }
 }
@@ -200,12 +200,12 @@ li {
     transform: rotateX(0deg);
     visibility: visible;
     background: var(--bs-light) !important;
-    transition: .5s;
+    transition: .2s;
     opacity: 1;
 }
 
 .collapse.navbar-collapse {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 @media (max-width: 992px) {
@@ -304,7 +304,7 @@ li {
     background-size: cover;
     padding: 150px 0 60px 0;
     margin-bottom: 6rem;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .bg-breadcrumb::after {
@@ -588,7 +588,7 @@ li {
     height: 50px;
     background: url(../img/sty-1.png) center center no-repeat;
     animation: RotateMoveSty-3 45s linear infinite;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: -1;
     
 }
@@ -614,7 +614,7 @@ li {
     border: 30px solid rgba(102, 16, 242, 0.05);
     background: transparent;
     animation: RotateMoveSty-4 45s linear infinite;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: -1;
     
 }
@@ -646,7 +646,7 @@ li {
     border: 5px solid rgba(247, 71, 128, 0.1);
     background: transparent;
     animation: RotateMoveSty-2 45s linear infinite;
-    transition: 0.5s;
+    transition: 0.2s;
 
 }
 
@@ -726,7 +726,7 @@ li {
 .service .service-item,
 .service .service-item .service-icon,
 .service .service-item a {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .service .service-item:hover {
@@ -762,7 +762,7 @@ li {
 .price .price-item {
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .price .price-item:hover {
@@ -813,7 +813,7 @@ li {
     display: flex;
     align-items: end;
     justify-content: space-between;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .blog .blog-item .blog-img:hover .blog-info {
@@ -827,7 +827,7 @@ li {
 }
 
 .blog .blog-item .blog-img img {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .blog .blog-item .blog-img:hover img {
@@ -920,7 +920,7 @@ li {
 .testimonial .testimonial-carousel.owl-carousel {
     position: relative;
     padding: 0 35px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .owl-dots {
@@ -938,9 +938,9 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(102, 16, 242, 0.09);
+    background: var(--bs-secondary);
     color: var(--bs-primary);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .testimonial .testimonial-carousel .owl-nav .owl-next {
@@ -954,9 +954,9 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(102, 16, 242, 0.09);
+    background: var(--bs-secondary);
     color: var(--bs-primary);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 
@@ -974,7 +974,7 @@ li {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .testimonial-carousel .owl-dots .owl-dot img {
@@ -982,7 +982,7 @@ li {
     height: 40px;
     border-radius: 20px;
     margin-right: 15px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active img {
@@ -1020,11 +1020,11 @@ li {
 .contact {
     position: relative;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 1;
 }
 
-.contact::after {
+/* .contact::after {
     content: "";
     position: absolute;
     top: 10%;
@@ -1036,7 +1036,7 @@ li {
     background: transparent;
     animation: ContactMoveLeft 50s linear infinite;
     z-index: 1;
-}
+} */
 
 @keyframes ContactMoveLeft {
     0% {
@@ -1060,7 +1060,7 @@ li {
     }
 }
 
-.contact::before {
+/* .contact::before {
     content: "";
     position: absolute;
     top: 10%;
@@ -1072,7 +1072,7 @@ li {
     background: transparent;
     animation: ContactMoveRight 50s linear infinite;
     z-index: 1;
-}
+} */
 
 @keyframes ContactMoveRight {
     0% {
@@ -1101,7 +1101,7 @@ li {
 
 /*** Footer Start ***/
 .footer {
-    /* background: linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05)); */
+    background: var(--bs-secondary);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1110,7 +1110,7 @@ li {
 .footer .footer-item a {
     line-height: 35px;
     color: var(--bs-dark);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .footer .footer-item p {
@@ -1118,7 +1118,7 @@ li {
 }
 
 .footer .footer-item a:hover {
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     color: var(--bs-primary);
 }
 
@@ -1206,7 +1206,7 @@ li {
   .contact .php-email-form .sent-message {
     display: none;
     color: #fff;
-    background: #059652;
+    /* background: #059652; */
     text-align: center;
     padding: 15px;
     font-weight: 600;
@@ -1220,15 +1220,15 @@ li {
   }
   
   .contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
+    /* content: ""; */
+    /* display: inline-block; */
     border-radius: 50%;
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #059652;
-    border-top-color: #fff;
-    animation: animate-loading 1s linear infinite;
+    /* border: 3px solid #059652; */
+    /* border-top-color: #fff; */
+    /* animation: animate-loading 1s linear infinite; */
   }
   
   .contact .php-email-form input,
